@@ -20,9 +20,11 @@ function findNeedle(haystack) {
     }
 }
 
-// We can also use one of the array methods to find the specific index of a given element:
-// We use the .indexOf() method, we pass in the specific element, and it will return the index number that element is located
-// at. If the element does not exist in the array, then it will return undefined.
+/*
+    - We can also use one of the array methods to find the specific index of a given element:
+    - We use the .indexOf() method, we pass in the specific element, and it will return the index number that element is located
+        at. If the element does not exist in the array, then it will return undefined.
+*/
 function array_method() {
     return "found the needle at position " + haystack.indexOf("needle");
 }
