@@ -29,9 +29,8 @@ function findSmallestInt(args) {
 
 function math_min(args) {
     // We can use the built in Math.min function to find the min value
-    return Math.min(...args);
-
     // Here the ... is REQUIRED!
+    return Math.min(...args);
 }
 
 
