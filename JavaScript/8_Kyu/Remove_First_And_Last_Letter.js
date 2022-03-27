@@ -7,11 +7,11 @@ given one parameter, the original string. You don't have to worry with strings w
 
 
 function removeChar(str) {
-    // remove the first and last char from the string
-    str = str.slice(1, -1);
-    // slice starts from index 1 and ends before the last index.
-    // negative index counts backwards of the string, just like in python.
-    // -1 index is equivalent to str.length - 1 in the slice method.
+	// remove the first and last char from the string
+	str = str.slice(1, -1);
+	// slice starts from index 1 and ends before the last index.
+	// negative index counts backwards of the string, just like in python.
+	// -1 index is equivalent to str.length - 1 in the slice method.
 
-    return str;
+	return str;
 }

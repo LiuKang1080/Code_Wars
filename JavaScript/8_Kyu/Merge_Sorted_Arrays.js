@@ -26,22 +26,22 @@ mergeArrays(arr5, arr6);  // [1, 2, 3, 4, 5, 7, 9, 10, 11, 12]
 
 
 function mergeArrays(arr1, arr2) {
-    /*
-        - First we combine both arrays into a single array
-        - We then sort the combined array (ascending order)
-    */
+	/*
+		- First we combine both arrays into a single array
+		- We then sort the combined array (ascending order)
+	*/
 
-    // combine both arrays
-    let combined_array = arr1.concat(arr2);
+	// combine both arrays
+	let combined_array = arr1.concat(arr2);
 
-    // sort the array
-    combined_array.sort( (a, b) => a - b);
+	// sort the array
+	combined_array.sort( (a, b) => a - b);
 
-    // create a set from the array to remove duplicates from the array
-    // A set is only allowed to contain unique objects!
-    let unique_arr = [...new Set(combined_array)];
+	// create a set from the array to remove duplicates from the array
+	// A set is only allowed to contain unique objects!
+	let unique_arr = [...new Set(combined_array)];
 
-    return unique_arr;
+	return unique_arr;
 }
 
 let arr5 = [1, 3, 5, 7, 9, 11, 12];

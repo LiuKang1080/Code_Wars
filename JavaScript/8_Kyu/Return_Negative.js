@@ -10,18 +10,18 @@ makeNegative(0);        // return 0
 makeNegative(0.12);     // return -0.12
 
 Notes:
-    - The number can be negative already, in which case no change is required.
-    - Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
+	- The number can be negative already, in which case no change is required.
+	- Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
 */
 
 
 function makeNegative(num) {
-    // check to see if the number is alreadyt negative
-    if (num < 0) {
-        // If less than zero just return num
-        return num;
-    } else {
-        // If the number is positive we can use the unary negation operator (-) to make it negative. Return it.
-        return (-num);
-    } 
+	// check to see if the number is alreadyt negative
+	if (num < 0) {
+		// If less than zero just return num
+		return num;
+	} else {
+		// If the number is positive we can use the unary negation operator (-) to make it negative. Return it.
+		return (-num);
+	}
 }

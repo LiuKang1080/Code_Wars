@@ -8,6 +8,6 @@ Make a function that will return a greeting statement that uses an input; your p
 
 
 function greet(name) {
-    // We will use literal template strings
-    return (`Hello, ${name} how are you doing today?`);
+	// We will use literal template strings
+	return (`Hello, ${name} how are you doing today?`);
 }

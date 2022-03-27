@@ -11,14 +11,14 @@ n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 
 
 function powersOfTwo(n){
-    let arr = [];
+	let arr = [];
 
-    // loop from 0 to n
-    for (let i = 0; i <= n; i++) {
-        arr.push(2**i);
-    }
+	// loop from 0 to n
+	for (let i = 0; i <= n; i++) {
+		arr.push(2**i);
+	}
 
-    return arr;
+	return arr;
 }
 
 console.log(powersOfTwo(5));

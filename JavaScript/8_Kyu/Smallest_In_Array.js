@@ -13,24 +13,24 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 
 
 function findSmallestInt(args) {
-    // set temp to always be the 1st element of the array, this is the starting point
-    let temp = args[0];
+	// set temp to always be the 1st element of the array, this is the starting point
+	let temp = args[0];
 
-    // loop through the array and check to see if the element is smaller than temp
-    for (let i = 1; i < args.length; i++) {
-        // check to see if current element is smaller than temp, if so, then replace temp with the element
-        if (args[i] < temp) {
-            temp = args[i];
-        }
-    }
+	// loop through the array and check to see if the element is smaller than temp
+	for (let i = 1; i < args.length; i++) {
+		// check to see if current element is smaller than temp, if so, then replace temp with the element
+		if (args[i] < temp) {
+			temp = args[i];
+		}
+	}
 
-    return temp;
+	return temp;
 }
 
 function math_min(args) {
-    // We can use the built in Math.min function to find the min value
-    // Here the ... is REQUIRED!
-    return Math.min(...args);
+	// We can use the built in Math.min function to find the min value
+	// Here the ... is REQUIRED!
+	return Math.min(...args);
 }
 
 

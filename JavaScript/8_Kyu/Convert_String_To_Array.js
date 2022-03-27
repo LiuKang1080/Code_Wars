@@ -9,9 +9,9 @@ Write a function to split a string and convert it into an array of words. For ex
 
 
 function stringToArray(string) {
-    // We will use the .split() method
-    // Our delimiter for the splitting is " " (space)
-    let arr = string.split(" ");
+	// We will use the .split() method
+	// Our delimiter for the splitting is " " (space)
+	let arr = string.split(" ");
 
-    return arr;
+	return arr;
 }

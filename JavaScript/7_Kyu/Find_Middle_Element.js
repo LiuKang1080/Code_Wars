@@ -18,26 +18,26 @@ gimme([5, 10, 14]) => 1
 
 
 function return_sorted(arr) {
-    // sort the array
-    return arr.sort( (a, b) => a - b );
+	// sort the array
+	return arr.sort( (a, b) => a - b );
 }
 
 function gimme(arr) {
-    // create copy of array
-    let copy_arr = [...arr];
-    let sorted_arr = return_sorted(copy_arr);
-    // we need to create this copy since sort() will actually change the array that is passed (arr), we need arr to not change
-    // for the comparison.
-    
-    // [1] is the middle number
-    middle_num = sorted_arr[1];
+	// create copy of array
+	let copy_arr = [...arr];
+	let sorted_arr = return_sorted(copy_arr);
+	// we need to create this copy since sort() will actually change the array that is passed (arr), we need arr to not change
+	// for the comparison.
+	
+	// [1] is the middle number
+	middle_num = sorted_arr[1];
 
-    // loop through the array to find the index of middle_num
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === middle_num) {
-            return i;
-        }
-    }
+	// loop through the array to find the index of middle_num
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] === middle_num) {
+			return i;
+		}
+	}
 }
 
 console.log("Index of the middle number is: " + gimme([5, 10, 14]));

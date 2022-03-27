@@ -10,15 +10,15 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 
 function positive_sum(arr) {
-    let sum = 0;
+	let sum = 0;
 
-    // loop through the array
-    arr.forEach( (element) => {
-        // check to see if the ele is positive
-        if (element > 0) {
-            sum += element;
-        }
-    });
+	// loop through the array
+	arr.forEach( (element) => {
+		// check to see if the ele is positive
+		if (element > 0) {
+			sum += element;
+		}
+	});
 
-    return sum;
+	return sum;
 }
