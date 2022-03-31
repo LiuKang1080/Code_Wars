@@ -22,3 +22,6 @@ function getCount(str) {
     
     return vowel_count;
 }
+
+
+console.log(getCount("Hello World!"));
