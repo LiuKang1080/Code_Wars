@@ -37,7 +37,7 @@ function zeroFuel(distanceToPump, mpg, fuelLeft) {
     - We can also shorten this code block:
     - Code readability and documentation matters!
 
-        return (mpg * fuelLeft) >= distanceToPump
+        return (mpg * fuelLeft) >= distanceToPump;
 */
 
 
