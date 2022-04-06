@@ -1,2 +1,9 @@
 *.exe
 /.vs
+/CPP/8_Kyu/.vs/8_Kyu/v16
+/CPP/8_Kyu/Square_N_Sum/Debug
+/CPP/8_Kyu/Debug
+*.sln
+*.user
+*.filters
+*.vcxproj
