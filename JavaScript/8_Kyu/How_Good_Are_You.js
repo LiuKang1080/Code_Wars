@@ -29,7 +29,7 @@ function betterThanAverage(classPoints, yourPoints) {
 
     average = (sum / classPoints.length);
 
-    // check to see if yourPoints is greater than classPoints
+    // check to see if yourPoints is greater than the average, return true if it is, else return false.
     if (yourPoints > average) {
         return true;
     } else {
