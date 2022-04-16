@@ -7,12 +7,25 @@ Ex) 'Hello World' ==> 'HeLlO wOrLd'
 """
 
 
-def spongebob_meme(str):
+def spongebob_meme(sentence):
+    """
+    Converts the given string into sponge case. Sponge case is alternating uppercase letter followed by a lowercase letter.
+    ex) Hello World --> HeLlO wOrLd
+
+    Parameters
+    ----------
+    sentence : The sentence that will be converted to sponge case.
+
+    Return
+    ----------
+    sponge_case : Explicitly returns the sentence converted into sponge case.
+    """
+
     # declare variables
     sponge_case = ""
     counter = True
 
-    for i in str:
+    for i in sentence:
         if not i.isalpha():
             sponge_case += i
             continue
