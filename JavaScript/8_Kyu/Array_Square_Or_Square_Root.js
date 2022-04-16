@@ -1,7 +1,7 @@
 // To Square or to not Square
 
 /*
-#To square(root) or not to square(root)
+To square(root) or not to square(root)
 
 Write a method, that will get an integer array as parameter and will process every number from this array.
 Return a new array with processing every number of the input-array like this:
