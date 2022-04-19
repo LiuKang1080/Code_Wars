@@ -14,7 +14,7 @@ function positive_sum(arr) {
 
 	// loop through the array
 	arr.forEach( (element) => {
-		// check to see if the ele is positive
+		// check to see if the element is positive
 		if (element > 0) {
 			sum += element;
 		}

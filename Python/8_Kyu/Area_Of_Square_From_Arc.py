@@ -17,11 +17,11 @@ def degree_converter(degrees):
 
     Parameters
     ----------
-    degrees : The degrees of the angle of the arc. In this example the degrees is 90
+    degrees[int | float] : The degrees of the angle of the arc. In this example the degrees is 90.
 
     Return
     ----------
-    radians : Returns the radians implcitly, no radians variable is created in this function. We can also return the result of
+    radians[int | float] : Returns the radians implcitly, no radians variable is created in this function. We can also return the result of
         the calculation for 90 degrees, rather than computing it.
     """
 
@@ -43,11 +43,11 @@ def square_area(arc_length):
 
     Parameters
     ----------
-    arc_length : The arc length of the quarter circle
+    arc_length[int | float] : The arc length of the quarter circle.
 
     Return
     ----------
-    area : Returns the area of the square implicitly
+    area[int | float] : Returns the area of the square implicitly.
     """
 
     # declare variables

@@ -1,7 +1,7 @@
 # Square or square root of an array / list
 
 """
-To square(root) or not to square(root)
+To square or to square root.
 
 Write a method, that will get an integer array as parameter and will process every number from this array.
 Return a new array with processing every number of the input-array like this:
@@ -25,11 +25,11 @@ def square_or_square_root(array):
 
     Parameters
     ----------
-    array : The original array provided, to check if the elements' square root are whole numbers
+    array[list] : The original array provided, to check if the elements' square root are whole numbers
 
     Return
     ----------
-    square_sqrt_array : all of the elements in this new array are either the square root or the square of the elements from
+    square_sqrt_array[list] : all of the elements in this new array are either the square root or the square of the elements from
     the original array.
     """
 

@@ -13,6 +13,18 @@ is a "hello world" solution you would want to show your friends?
 
 # Write a function `greet` that returns "hello world!"
 def greet():
+    """
+    Simple greet function that returns the string "hello world!"
+
+    Parameters
+    ----------
+    None
+
+    Return
+    ----------
+    [string] : Return the hello world string.
+    """
+
     return "hello world!"
 
 

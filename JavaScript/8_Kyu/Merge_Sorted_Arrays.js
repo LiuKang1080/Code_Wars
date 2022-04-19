@@ -35,7 +35,7 @@ function mergeArrays(arr1, arr2) {
 	let combined_array = arr1.concat(arr2);
 
 	// sort the array
-	combined_array.sort( (a, b) => a - b);
+	combined_array.sort( (a, b) => a - b );
 
 	// create a set from the array to remove duplicates from the array
 	// A set is only allowed to contain unique objects!
