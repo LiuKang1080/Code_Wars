@@ -31,7 +31,6 @@ function unusedDigits() {
 
         // loop through the temp_array, and add all of the unique elements to the unique_set
         for (let j = 0; j < temp_string_array.length; j++) {
-            // console.log(temp_string_array[j]);
             unique_set.add(temp_string_array[j]);
         }
     }
