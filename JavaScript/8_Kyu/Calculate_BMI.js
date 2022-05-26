@@ -11,6 +11,20 @@ if bmi > 30 return "Obese"
 
 
 function bmi(weight, height) {
+	/*
+	Function that calculates BMI and returns the catageory as a string
+
+    Parameters:
+    ----------
+    weight [float] : The weight of the person, generally given in pounds.
+
+    height [float] : The height of the person, generally given in the form Xft-Yin, but converted into inches.
+
+    Return:
+    ----------
+    [string] : Returns the category based on the BMI.
+	*/
+	
 	let bmi = (weight / (height * height));
 	
 	if (bmi <= 18.5) {
