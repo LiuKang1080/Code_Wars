@@ -52,10 +52,21 @@ function oob(name) {
     } else {
         arr[0] = arr[0].toUpperCase();
     }
+
+    // use for loop to find spaces, and capitalize the next element after the space
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === " ") {
+            if (arr[i + 1] === "oob") {
+                arr[i + 1] = "Oob";
+            } else {
+                arr[i + 1] = arr[i + 1].toUpperCase();
+            }
+        }
+    }
     
     // convert the array back into a string, and return the string
     return arr.join("");
 }
 
 
-console.log(oob("Alice"));
+console.log(oob("John Dude"));
