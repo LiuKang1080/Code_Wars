@@ -18,4 +18,4 @@ function solution(str) {
 }
 
 
-console.log(solution("word"));
+console.log(solution("world"));
