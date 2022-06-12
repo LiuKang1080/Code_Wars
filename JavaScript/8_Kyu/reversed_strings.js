@@ -13,7 +13,7 @@ function solution(str) {
     Takes the input string, and then returns the string reversed.
         - We will use the built-in functions .split(), .reverse(), and .join() to perform this algorithm.
 
-    Parameters:
+    Parameters
     ----------
     str[string] : The string that is passed in, that will be reversed.
     
