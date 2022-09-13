@@ -23,7 +23,7 @@ function areYouPlayingBanjo(name) {
 
 	Parameters
 	----------
-	name[string] : The name of the person
+	name [string] : The name of the person
 
 	Return
 	----------
