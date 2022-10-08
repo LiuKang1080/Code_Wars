@@ -19,7 +19,7 @@ Names given are always valid strings.
 #include <string>
 
 
-void are_you_playing_banjo(std::string name) {
+void are_you_playing_banjo(const std::string name) {
     /*
 	Returns a string depending on the first character of the string provided. If the string passed into the function starts with
 	the character "R" or "r", then this function will return the string [name + "plays the banjo"]. Else we will return the
@@ -42,9 +42,9 @@ void are_you_playing_banjo(std::string name) {
 	*/
 
     if ((name.at(0) == 'r') || (name.at(0) == 'R')) {
-		std::cout << name + " plays banjo \n";
+		std::cout << name + " plays banjo" << "\n";
 	} else {
-		std::cout << name + " does not play banjo \n";
+		std::cout << name + " does not play banjo" << "\n";
 	}
 }
 
