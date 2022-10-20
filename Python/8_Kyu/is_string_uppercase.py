@@ -28,7 +28,7 @@ def is_uppercase(inp):
 
     Parameters
     ----------
-    str [string] : The complete string entered.
+    inp [string] : The input string.
 
     Return
     ----------

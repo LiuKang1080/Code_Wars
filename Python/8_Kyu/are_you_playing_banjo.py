@@ -22,7 +22,7 @@ def are_you_playing_banjo(name):
 
     Parameters
     ----------
-    name[string] : The name provided in the form of a string.
+    name [string] : The name provided in the form of a string.
 
     Return
     ----------

@@ -14,11 +14,11 @@ def spongebob_meme(sentence):
 
     Parameters
     ----------
-    sentence : The sentence that will be converted to sponge case.
+    sentence [string] : The sentence that will be converted to sponge case.
 
     Return
     ----------
-    sponge_case : Explicitly returns the sentence converted into sponge case.
+    sponge_case [string] : Explicitly returns the sentence converted into sponge case.
     """
 
     # declare variables

@@ -25,7 +25,7 @@ def greet():
     [string] : Return the hello world string.
     """
 
-    return "hello world!"
+    return "Hello World!"
 
 
 greet()

@@ -14,7 +14,7 @@ def maps(arr):
 
     Parameters
     ----------
-    a [List ] : The provided list of elements
+    arr [List ] : The provided list of elements
 
     Return
     ----------

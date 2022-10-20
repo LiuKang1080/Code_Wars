@@ -25,12 +25,12 @@ def square_or_square_root(array):
 
     Parameters
     ----------
-    array[list] : The original array provided, to check if the elements' square root are whole numbers
+    array [list] : The original array provided, to check if the elements' square root are whole numbers
 
     Return
     ----------
-    square_sqrt_array[list] : all of the elements in this new array are either the square root or the square of the elements from
-    the original array.
+    square_sqrt_array [list] : all of the elements in this new array are either the square root or the square of the elements from
+        the original array.
     """
 
     # declare variables
