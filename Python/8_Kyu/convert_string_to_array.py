@@ -14,7 +14,7 @@ def string_to_array(str):
 
     Parameters
     ----------
-    str [string] : The name provided in the form of a string.
+    str [string] : The sentence provided.
 
     Return
     ----------
