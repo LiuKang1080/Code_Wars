@@ -36,6 +36,7 @@ function auto_attack_counter(total_number_of_attacks) {
     [string] : Print the number of times Kraken and Nocturne's passive proc.
     */
 
+    // declare variables:
     let kraken_proc_count = 0;
     let passive_proc_count = 0;
     let total_kraken_proc = 0;
