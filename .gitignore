@@ -20,3 +20,4 @@
 *.db
 *.suo
 /.vscode
+**/target
